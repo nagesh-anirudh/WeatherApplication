@@ -1,0 +1,3510 @@
+[
+  {
+    "description": "  As an Application user I should be able to get weather forecast details based on input provided",
+    "keyword": "Feature",
+    "name": "Display the weather forecast",
+    "line": 1,
+    "id": "display-the-weather-forecast",
+    "tags": [],
+    "uri": "features/weather.feature",
+    "elements": [
+      {
+        "id": "display-the-weather-forecast;to-verify-5-days-weather-forecast-is-displayed-for-the-city-entered.",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "To verify 5 days weather forecast is displayed for the city entered.",
+        "tags": [
+          {
+            "name": "@weatherTest-1",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1003000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I enter the city as \"edinburgh\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6069000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3056000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-5-days-weather-forecast-is-displayed-for-the-city-entered.",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "To verify 5 days weather forecast is displayed for the city entered.",
+        "tags": [
+          {
+            "name": "@weatherTest-1",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 896000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I enter the city as \"aberdeen\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6026000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3058000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-5-days-weather-forecast-is-displayed-for-the-city-entered.",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "To verify 5 days weather forecast is displayed for the city entered.",
+        "tags": [
+          {
+            "name": "@weatherTest-1",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 856000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I enter the city as \"dundee\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5515000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3072000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-5-days-weather-forecast-is-displayed-for-the-city-entered.",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "To verify 5 days weather forecast is displayed for the city entered.",
+        "tags": [
+          {
+            "name": "@weatherTest-1",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 873000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I enter the city as \"glasgow\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7726000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3054000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-5-days-weather-forecast-is-displayed-for-the-city-entered.",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "To verify 5 days weather forecast is displayed for the city entered.",
+        "tags": [
+          {
+            "name": "@weatherTest-1",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 916000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I enter the city as \"stirling\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5060000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3057000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-the-application-displays-3-hourly-forecast-on-selecting-a-day.",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "To verify the application displays 3 hourly forecast on selecting a day.",
+        "tags": [
+          {
+            "name": "@weatherTest-2",
+            "line": 19
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 922000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I enter the city as \"edinburgh\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5366000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I select day \"1\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:32"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should be able to see 3 hourly forecast for that day \"1\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:37"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3057000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-the-application-displays-3-hourly-forecast-on-selecting-a-day.",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "To verify the application displays 3 hourly forecast on selecting a day.",
+        "tags": [
+          {
+            "name": "@weatherTest-2",
+            "line": 19
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 850000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I enter the city as \"aberdeen\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6075000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I select day \"2\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:32"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should be able to see 3 hourly forecast for that day \"2\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:37"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3058000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-the-application-displays-3-hourly-forecast-on-selecting-a-day.",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "To verify the application displays 3 hourly forecast on selecting a day.",
+        "tags": [
+          {
+            "name": "@weatherTest-2",
+            "line": 19
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 861000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I enter the city as \"dundee\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5645000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I select day \"3\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:32"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should be able to see 3 hourly forecast for that day \"3\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3058000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-the-application-displays-3-hourly-forecast-on-selecting-a-day.",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "To verify the application displays 3 hourly forecast on selecting a day.",
+        "tags": [
+          {
+            "name": "@weatherTest-2",
+            "line": 19
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 823000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I enter the city as \"glasgow\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5914000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I select day \"4\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:32"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should be able to see 3 hourly forecast for that day \"4\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:37"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3057000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-the-application-displays-3-hourly-forecast-on-selecting-a-day.",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "To verify the application displays 3 hourly forecast on selecting a day.",
+        "tags": [
+          {
+            "name": "@weatherTest-2",
+            "line": 19
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 788000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I enter the city as \"stirling\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5279000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I select day \"5\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should be able to see 3 hourly forecast for that day \"5\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:37"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3055000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-the-application-hides-3-hourly-forecast-on-selecting-the-same-day-again.",
+        "keyword": "Scenario",
+        "line": 49,
+        "name": "To verify the application hides 3 hourly forecast on selecting the same day again.",
+        "tags": [
+          {
+            "name": "@weatherTest-3",
+            "line": 36
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 793000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 39,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "I enter the city as \"edinburgh\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5161000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "I select day \"1\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:32"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "I should be able to see 3 hourly forecast for that day \"1\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "I select day \"1\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:32"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "I should not be able to see 3 hourly forecast for that day",
+            "match": {
+              "location": "features/step_definitions/weather.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3055000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-the-application-hides-3-hourly-forecast-on-selecting-the-same-day-again.",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "To verify the application hides 3 hourly forecast on selecting the same day again.",
+        "tags": [
+          {
+            "name": "@weatherTest-3",
+            "line": 36
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 805000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 39,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "I enter the city as \"aberdeen\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6341000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "I select day \"2\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:32"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "I should be able to see 3 hourly forecast for that day \"2\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:37"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "I select day \"2\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:32"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "I should not be able to see 3 hourly forecast for that day",
+            "match": {
+              "location": "features/step_definitions/weather.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3053000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-the-application-hides-3-hourly-forecast-on-selecting-the-same-day-again.",
+        "keyword": "Scenario",
+        "line": 51,
+        "name": "To verify the application hides 3 hourly forecast on selecting the same day again.",
+        "tags": [
+          {
+            "name": "@weatherTest-3",
+            "line": 36
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 798000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 39,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "I enter the city as \"dundee\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5922000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "I select day \"3\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:32"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "I should be able to see 3 hourly forecast for that day \"3\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "I select day \"3\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "I should not be able to see 3 hourly forecast for that day",
+            "match": {
+              "location": "features/step_definitions/weather.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3066000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-the-application-hides-3-hourly-forecast-on-selecting-the-same-day-again.",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "To verify the application hides 3 hourly forecast on selecting the same day again.",
+        "tags": [
+          {
+            "name": "@weatherTest-3",
+            "line": 36
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 786000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 39,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "I enter the city as \"glasgow\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5245000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "I select day \"4\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:32"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "I should be able to see 3 hourly forecast for that day \"4\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "I select day \"4\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:32"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "I should not be able to see 3 hourly forecast for that day",
+            "match": {
+              "location": "features/step_definitions/weather.js:60"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3059000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-the-application-hides-3-hourly-forecast-on-selecting-the-same-day-again.",
+        "keyword": "Scenario",
+        "line": 53,
+        "name": "To verify the application hides 3 hourly forecast on selecting the same day again.",
+        "tags": [
+          {
+            "name": "@weatherTest-3",
+            "line": 36
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 810000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 39,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "I enter the city as \"stirling\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5855000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "I select day \"5\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "I should be able to see 3 hourly forecast for that day \"5\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:37"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "I select day \"5\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "I should not be able to see 3 hourly forecast for that day",
+            "match": {
+              "location": "features/step_definitions/weather.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3066000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-the-application-is-showing-the-3-hour-data-for-daily-forecast-of-current-condition,-wind-speed,-direction,-aggregate-rainfall-and-temperatures.",
+        "keyword": "Scenario",
+        "line": 71,
+        "name": "To verify the application is showing the 3 hour data for daily forecast of current condition, wind speed, direction, aggregate rainfall and temperatures.",
+        "tags": [
+          {
+            "name": "@weatherTest-4",
+            "line": 55
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 782000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 58,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 59,
+            "name": "I enter the city as \"edinburgh\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5734000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 61,
+            "name": "I select day \"1\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 62,
+            "name": "I should be able to see 3 hourly forecast for that day \"1\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:37"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "I should be able to see summary of current condtion of the day",
+            "match": {
+              "location": "features/step_definitions/weather.js:202"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 64,
+            "name": "I should be able to see summary of most dominant wind speed of the day \"1\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:134"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 65,
+            "name": "I should be able to see summary of current direction of the day",
+            "match": {
+              "location": "features/step_definitions/weather.js:222"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 66,
+            "name": "I should be able to see summary of Aggregate rainfall of the day \"1\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:103"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "I should be able to see summary of min and max temparture of the day \"1\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3054000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-the-application-is-showing-the-3-hour-data-for-daily-forecast-of-current-condition,-wind-speed,-direction,-aggregate-rainfall-and-temperatures.",
+        "keyword": "Scenario",
+        "line": 72,
+        "name": "To verify the application is showing the 3 hour data for daily forecast of current condition, wind speed, direction, aggregate rainfall and temperatures.",
+        "tags": [
+          {
+            "name": "@weatherTest-4",
+            "line": 55
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 813000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 58,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 59,
+            "name": "I enter the city as \"aberdeen\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5062000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 61,
+            "name": "I select day \"2\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:32"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 62,
+            "name": "I should be able to see 3 hourly forecast for that day \"2\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "I should be able to see summary of current condtion of the day",
+            "match": {
+              "location": "features/step_definitions/weather.js:202"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 64,
+            "name": "I should be able to see summary of most dominant wind speed of the day \"2\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:134"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 65,
+            "name": "I should be able to see summary of current direction of the day",
+            "match": {
+              "location": "features/step_definitions/weather.js:222"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 66,
+            "name": "I should be able to see summary of Aggregate rainfall of the day \"2\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:103"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "I should be able to see summary of min and max temparture of the day \"2\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:69"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3057000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-the-application-is-showing-the-3-hour-data-for-daily-forecast-of-current-condition,-wind-speed,-direction,-aggregate-rainfall-and-temperatures.",
+        "keyword": "Scenario",
+        "line": 73,
+        "name": "To verify the application is showing the 3 hour data for daily forecast of current condition, wind speed, direction, aggregate rainfall and temperatures.",
+        "tags": [
+          {
+            "name": "@weatherTest-4",
+            "line": 55
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 785000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 58,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 59,
+            "name": "I enter the city as \"dundee\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6285000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 61,
+            "name": "I select day \"3\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:32"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 62,
+            "name": "I should be able to see 3 hourly forecast for that day \"3\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "I should be able to see summary of current condtion of the day",
+            "match": {
+              "location": "features/step_definitions/weather.js:202"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 64,
+            "name": "I should be able to see summary of most dominant wind speed of the day \"3\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:134"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 65,
+            "name": "I should be able to see summary of current direction of the day",
+            "match": {
+              "location": "features/step_definitions/weather.js:222"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 66,
+            "name": "I should be able to see summary of Aggregate rainfall of the day \"3\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:103"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "I should be able to see summary of min and max temparture of the day \"3\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:69"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3059000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-the-application-is-showing-the-3-hour-data-for-daily-forecast-of-current-condition,-wind-speed,-direction,-aggregate-rainfall-and-temperatures.",
+        "keyword": "Scenario",
+        "line": 74,
+        "name": "To verify the application is showing the 3 hour data for daily forecast of current condition, wind speed, direction, aggregate rainfall and temperatures.",
+        "tags": [
+          {
+            "name": "@weatherTest-4",
+            "line": 55
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 779000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 58,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 59,
+            "name": "I enter the city as \"glasgow\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5039000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 61,
+            "name": "I select day \"4\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:32"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 62,
+            "name": "I should be able to see 3 hourly forecast for that day \"4\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:37"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "I should be able to see summary of current condtion of the day",
+            "match": {
+              "location": "features/step_definitions/weather.js:202"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 64,
+            "name": "I should be able to see summary of most dominant wind speed of the day \"4\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:134"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 65,
+            "name": "I should be able to see summary of current direction of the day",
+            "match": {
+              "location": "features/step_definitions/weather.js:222"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 66,
+            "name": "I should be able to see summary of Aggregate rainfall of the day \"4\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:103"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "I should be able to see summary of min and max temparture of the day \"4\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:69"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3055000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-the-application-is-showing-the-3-hour-data-for-daily-forecast-of-current-condition,-wind-speed,-direction,-aggregate-rainfall-and-temperatures.",
+        "keyword": "Scenario",
+        "line": 75,
+        "name": "To verify the application is showing the 3 hour data for daily forecast of current condition, wind speed, direction, aggregate rainfall and temperatures.",
+        "tags": [
+          {
+            "name": "@weatherTest-4",
+            "line": 55
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 793000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 58,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 59,
+            "name": "I enter the city as \"stirling\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5615000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 61,
+            "name": "I select day \"5\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:32"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 62,
+            "name": "I should be able to see 3 hourly forecast for that day \"5\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:37"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "I should be able to see summary of current condtion of the day",
+            "match": {
+              "location": "features/step_definitions/weather.js:202"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 64,
+            "name": "I should be able to see summary of most dominant wind speed of the day \"5\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:134"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 65,
+            "name": "I should be able to see summary of current direction of the day",
+            "match": {
+              "location": "features/step_definitions/weather.js:222"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 66,
+            "name": "I should be able to see summary of Aggregate rainfall of the day \"5\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:103"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "I should be able to see summary of min and max temparture of the day \"5\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:69"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3057000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-all-the-values-displayed-on-the-application-are-rounded-off-to-the-nearest-value.",
+        "keyword": "Scenario",
+        "line": 88,
+        "name": "To verify all the values displayed on the application are rounded off to the nearest value.",
+        "tags": [
+          {
+            "name": "@weatherTest-5",
+            "line": 78
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 804000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 81,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 82,
+            "name": "I enter the city as \"edinburgh\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5038000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 83,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 84,
+            "name": "I should be able to see all values are rounded off",
+            "match": {
+              "location": "features/step_definitions/weather.js:163"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3070000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-all-the-values-displayed-on-the-application-are-rounded-off-to-the-nearest-value.",
+        "keyword": "Scenario",
+        "line": 89,
+        "name": "To verify all the values displayed on the application are rounded off to the nearest value.",
+        "tags": [
+          {
+            "name": "@weatherTest-5",
+            "line": 78
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 800000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 81,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 82,
+            "name": "I enter the city as \"aberdeen\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5117000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 83,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 84,
+            "name": "I should be able to see all values are rounded off",
+            "match": {
+              "location": "features/step_definitions/weather.js:163"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3055000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-all-the-values-displayed-on-the-application-are-rounded-off-to-the-nearest-value.",
+        "keyword": "Scenario",
+        "line": 90,
+        "name": "To verify all the values displayed on the application are rounded off to the nearest value.",
+        "tags": [
+          {
+            "name": "@weatherTest-5",
+            "line": 78
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 787000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 81,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 82,
+            "name": "I enter the city as \"dundee\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5028000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 83,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 84,
+            "name": "I should be able to see all values are rounded off",
+            "match": {
+              "location": "features/step_definitions/weather.js:163"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3056000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-all-the-values-displayed-on-the-application-are-rounded-off-to-the-nearest-value.",
+        "keyword": "Scenario",
+        "line": 91,
+        "name": "To verify all the values displayed on the application are rounded off to the nearest value.",
+        "tags": [
+          {
+            "name": "@weatherTest-5",
+            "line": 78
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 845000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 81,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 82,
+            "name": "I enter the city as \"glasgow\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5188000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 83,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 84,
+            "name": "I should be able to see all values are rounded off",
+            "match": {
+              "location": "features/step_definitions/weather.js:163"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3055000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-all-the-values-displayed-on-the-application-are-rounded-off-to-the-nearest-value.",
+        "keyword": "Scenario",
+        "line": 92,
+        "name": "To verify all the values displayed on the application are rounded off to the nearest value.",
+        "tags": [
+          {
+            "name": "@weatherTest-5",
+            "line": 78
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 833000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 81,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 82,
+            "name": "I enter the city as \"stirling\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5069000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 83,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 84,
+            "name": "I should be able to see all values are rounded off",
+            "match": {
+              "location": "features/step_definitions/weather.js:163"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3057000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-error-displayed-if-city-is-incorrect/blank.",
+        "keyword": "Scenario",
+        "line": 103,
+        "name": "To verify error displayed if city is incorrect/blank.",
+        "tags": [
+          {
+            "name": "@weatherTest-6",
+            "line": 94
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 784000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 97,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 98,
+            "name": "I enter the city as \"London\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5134000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 99,
+            "name": "I should not be able to see weather forecast data",
+            "match": {
+              "location": "features/step_definitions/weather.js:195"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3057000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-error-displayed-if-city-is-incorrect/blank.",
+        "keyword": "Scenario",
+        "line": 104,
+        "name": "To verify error displayed if city is incorrect/blank.",
+        "tags": [
+          {
+            "name": "@weatherTest-6",
+            "line": 94
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 787000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 97,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 98,
+            "name": "I enter the city as \"123\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5832000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 99,
+            "name": "I should not be able to see weather forecast data",
+            "match": {
+              "location": "features/step_definitions/weather.js:195"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3053000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-error-displayed-if-city-is-incorrect/blank.",
+        "keyword": "Scenario",
+        "line": 105,
+        "name": "To verify error displayed if city is incorrect/blank.",
+        "tags": [
+          {
+            "name": "@weatherTest-6",
+            "line": 94
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 831000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 97,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 98,
+            "name": "I enter the city as \"!@£\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6550000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 99,
+            "name": "I should not be able to see weather forecast data",
+            "match": {
+              "location": "features/step_definitions/weather.js:195"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3058000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-error-displayed-if-city-is-incorrect/blank.",
+        "keyword": "Scenario",
+        "line": 106,
+        "name": "To verify error displayed if city is incorrect/blank.",
+        "tags": [
+          {
+            "name": "@weatherTest-6",
+            "line": 94
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 839000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 97,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 98,
+            "name": "I enter the city as \"\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4838000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 99,
+            "name": "I should not be able to see weather forecast data",
+            "match": {
+              "location": "features/step_definitions/weather.js:195"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3058000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-city-entered-is-not-case-sensitive.",
+        "keyword": "Scenario",
+        "line": 117,
+        "name": "To verify city entered is not case sensitive.",
+        "tags": [
+          {
+            "name": "@weatherTest-7",
+            "line": 108
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 800000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 111,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 112,
+            "name": "I enter the city as \"EdinburgH\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5280000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 113,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3055000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-city-entered-is-not-case-sensitive.",
+        "keyword": "Scenario",
+        "line": 118,
+        "name": "To verify city entered is not case sensitive.",
+        "tags": [
+          {
+            "name": "@weatherTest-7",
+            "line": 108
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 848000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 111,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 112,
+            "name": "I enter the city as \"abeRdEen\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5421000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 113,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3059000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-city-entered-is-not-case-sensitive.",
+        "keyword": "Scenario",
+        "line": 119,
+        "name": "To verify city entered is not case sensitive.",
+        "tags": [
+          {
+            "name": "@weatherTest-7",
+            "line": 108
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 798000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 111,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 112,
+            "name": "I enter the city as \"duNDee\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5028000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 113,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3060000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-city-entered-is-not-case-sensitive.",
+        "keyword": "Scenario",
+        "line": 120,
+        "name": "To verify city entered is not case sensitive.",
+        "tags": [
+          {
+            "name": "@weatherTest-7",
+            "line": 108
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 788000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 111,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 112,
+            "name": "I enter the city as \"glASgow\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5411000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 113,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3055000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-city-entered-is-not-case-sensitive.",
+        "keyword": "Scenario",
+        "line": 121,
+        "name": "To verify city entered is not case sensitive.",
+        "tags": [
+          {
+            "name": "@weatherTest-7",
+            "line": 108
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 797000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 111,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 112,
+            "name": "I enter the city as \"stIRlinG\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5653000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 113,
+            "name": "I should be able to see weather forecast data for five days",
+            "match": {
+              "location": "features/step_definitions/weather.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3058000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "display-the-weather-forecast;to-verify-if-weather-forecast-is-displayed-from-the-current-day.",
+        "keyword": "Scenario",
+        "line": 132,
+        "name": "To verify if weather forecast is displayed from the current day.",
+        "tags": [
+          {
+            "name": "@weatherTest-8",
+            "line": 123
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 805000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 126,
+            "name": "I navigate to the weather forecast page",
+            "match": {
+              "location": "features/step_definitions/weather.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 127,
+            "name": "I enter the city as \"glasgow\"",
+            "match": {
+              "location": "features/step_definitions/weather.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5423000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 128,
+            "name": "I should be able to see weather forecast data for five days from current day",
+            "match": {
+              "location": "features/step_definitions/weather.js:247"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:8"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 70000000,
+              "error_message": "AssertionError: 27 == 20\n    + expected - actual\n\n    -27\n    +20\n\n    at /Users/davidgnanaraj/Desktop/Assignment/AcceptanceTesting/features/step_definitions/weather.js:255:23\n    at ManagedPromise.invokeCallback_ (/Users/davidgnanaraj/Desktop/Assignment/AcceptanceTesting/node_modules/selenium-webdriver/lib/promise.js:1384:14)\n    at TaskQueue.execute_ (/Users/davidgnanaraj/Desktop/Assignment/AcceptanceTesting/node_modules/selenium-webdriver/lib/promise.js:3092:14)\n    at TaskQueue.executeNext_ (/Users/davidgnanaraj/Desktop/Assignment/AcceptanceTesting/node_modules/selenium-webdriver/lib/promise.js:3075:27)\n    at asyncRun (/Users/davidgnanaraj/Desktop/Assignment/AcceptanceTesting/node_modules/selenium-webdriver/lib/promise.js:2935:27)\n    at /Users/davidgnanaraj/Desktop/Assignment/AcceptanceTesting/node_modules/selenium-webdriver/lib/promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:103:7)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

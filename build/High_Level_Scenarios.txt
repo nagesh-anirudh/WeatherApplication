@@ -1,0 +1,13 @@
+Sl.No	Scenario(s)	Scenario Type	Remarks
+1	Verifying Weather forecast for 5 days.	Postiive	
+2	Verifying Error Message incase of incorrect city.	Negative	
+3	Verifying the application displays 3 hourly forecast on a particular day.	Postiive	
+4	Verifying the Temperature Values are rounded up or not.	Postiive	
+5	Verifying the Weather condition for the Current Time.	Postiive	
+6	Verifying the wind speed for the Weather Forecast	Postiive	
+7	To verify the application is showing the 3 hour data for daily forecast for aggregate rainfall.	Postiive	
+8	To verify the application is showing the 3 hour data for daily forecast for min and max temparture .	Postiive	
+9	Verifying the City Name is Case-Sensitive.	Negative	
+10	To verify if weather forecast is displayed from the current day.	Negative	
+11	Verify the UI properties of Maximum Temperature Values.	Funcational/UI	
+12	Verify the UI properties of Minimum Temperature Values.	Funcational/UI	
